@@ -9,15 +9,18 @@
     <link rel="stylesheet" href="./src/styless.css" />
 </head>
 <body>
+    <div class="weather-app">
     <header> 
      <section>
         <img src="./src/illustration/undraw_weather_app_re_kcb1.svg" width="70" />
      </section>
-<form> 
-    <input type="search" placeholder="Search for a city..."  required> 
-    <input type="submit" value="submit">
+     <br />
+<form class="search-form"> 
+    <input type="search" placeholder="Search for a city..." class="search-form-input" required > 
+    <input type="submit" value="submit"  class="search-form-button">
 </form>
     </header>
+    <div class="weather-app-data">
     <div>
     <h1>Paris</h1>
     <p>
@@ -26,7 +29,13 @@
         Humidity: 66%, Wind: 3.13km/h
       </p>
     </div>
-    <div>🌤️ 12°C</div>
+    </div>
+    <div class="weather-app-temperature-container"> 
+     <div class="weather-app-icon">🌤️</div>
+    <div class="weather-app-temperature">12</div>
+    <div class="weatehr-app-unit">°C</div>
+  </div>
+</div>
     <footer>  <p>
         This project was coded by
         <a href="https://github.com/FerozaC" target="_blank"
@@ -38,5 +47,6 @@
 
 
     <script src="./src/index.js"></script>
+    </div>
 </body>
 </html>
