@@ -1,7 +1,12 @@
 body {
     background-color: #f9f7fe;
-    font-family: "Roboto", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
+
+  form {
+    display: flex;
+    margin-top: 0em;
+}
   
   a {
     color: #885df1;
