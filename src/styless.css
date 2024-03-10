@@ -6,6 +6,7 @@ body {
   form {
     display: flex;
     margin-top: 0em;
+    box-shadow: 10px 10px 63px rgba(0, 0, 0, 0.1);
 }
   
   a {
@@ -16,7 +17,7 @@ body {
     background: #F2F1EB;
     max-width: 600px;
     margin: 45px auto;
-    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
     padding: 30px;
   }
@@ -28,6 +29,12 @@ body {
 .Weather-logo {
     display: block;
     max-width: 150px;
+}
+.app-name {
+    font-size: 14px;
+    opacity: 0.8;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+color: #000000;
 }
   header {
     border-bottom: 1px solid #f9f7fe;
