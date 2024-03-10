@@ -53,7 +53,7 @@
   }
   
   function searchCity(city) {
-    let apiKey = "b2a5adcct04b33178913oc335f405433";
+    let apiKey = "8acf2e12t46823aco56151e11fb9a0c0";
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}`;
     axios.get(apiUrl).then(refreshWeather);
   }
@@ -69,3 +69,5 @@
   searchFormElement.addEventListener("submit", handleSearchSubmit);
   
   searchCity("Johannesburg");
+
+
