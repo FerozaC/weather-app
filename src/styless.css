@@ -15,7 +15,7 @@ a {
 
 .weather-app {
   background: #F2F1EB;
-  max-width: 900px; 
+  max-width: 600px; 
   margin: 45px auto;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
