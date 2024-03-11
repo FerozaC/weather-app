@@ -154,3 +154,6 @@ footer {
 .weather-forecast-temperature {
   padding: 0 10px;
 }
+.min {
+  opacity: 0.8;
+}
