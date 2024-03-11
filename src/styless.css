@@ -1,6 +1,8 @@
 body {
   background-color: #EEE7DA;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: url(./cloudsinthesky.jpg);
+  opacity: 0.8;
 }
 
 form {
@@ -18,7 +20,7 @@ a {
   max-width: 600px; 
   margin: 45px auto;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
+  border-radius: 3px;
   padding: 30px;
 }
 
